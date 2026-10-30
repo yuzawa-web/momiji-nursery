@@ -1330,3 +1330,8 @@ img[src^="photo-"]{ background:#fcefe4; }
 .features--3 .fcard__pic img{ object-fit:cover; }
 .hagu__pic img{ aspect-ratio:4/3; object-fit:cover; border-radius:24px; }
 .c-d img{ object-position:center 22%; }
+/* Instagramの埋め込み：読み込み中の表示 */
+.igbox{ position:relative; }
+.igbox__wait{ position:absolute; inset:0; display:flex; align-items:center; justify-content:center; color:var(--ink-soft); font-size:.9rem; z-index:0; }
+.igbox iframe{ position:relative; z-index:1; background:transparent; }
+@media (min-width:861px){ .collage{ grid-template-rows:1fr 1fr 1.25fr !important; } .polas{ grid-template-columns:repeat(3,minmax(0,1fr)) !important; } }
