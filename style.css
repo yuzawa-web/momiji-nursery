@@ -1324,3 +1324,9 @@ img[src^="photo-"]{ background:#fcefe4; }
 .steps li{ list-style:none; counter-increment:st; background:var(--white); border-radius:20px; padding:16px 20px 16px 64px; position:relative; box-shadow:var(--soft-sm); }
 .steps li::before{ content:counter(st); position:absolute; left:18px; top:14px; width:32px; height:32px; border-radius:50%; background:var(--deep); color:#fff; font-weight:700; display:flex; align-items:center; justify-content:center; font-family:var(--round); }
 .steps li b{ display:block; color:var(--deep); }
+
+/* 園の写真を入れたときの見え方（2026-10-30） */
+.features--3 .fcard__pic{ aspect-ratio:4/3; }
+.features--3 .fcard__pic img{ object-fit:cover; }
+.hagu__pic img{ aspect-ratio:4/3; object-fit:cover; border-radius:24px; }
+.c-d img{ object-position:center 22%; }

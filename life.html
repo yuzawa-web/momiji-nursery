@@ -12,14 +12,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap&text=%E3%81%98%E3%81%BF%E3%82%82%E3%82%B9%E3%83%8A%E3%83%AA%E3%83%BC" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=202610231723">
+<link rel="stylesheet" href="style.css?v=202610301113">
 </head>
 <body>
 <!--
   もみじナースリー（博滇会グループ）　5ページ版　2026-10-23
   作りと構成は、さくらナースリーの5ページ版と同じです。色はもみじの秋の色にしています。
   中身は、さいたま市の施設ページ（もみじナースリー）と市の資料の内容をもとにしています。
-  ★写真はまだありません。「photo-1.svg」などの仮の枠を、園の写真に差し替えてください。
+  ★写真は photos フォルダに入っています（2026-10-30 園の写真に差し替え）。
 -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <defs>
@@ -53,8 +53,8 @@
       <p class="phero__lead">保育時間のめやすと、園での一日・一年のようすをご紹介します。</p>
     </div>
     <div class="phero__photo">
-      <figure class="pic pic--main"><img src="photo-3.svg" alt="（写真を差し替えてください）" width="1200" height="800"></figure>
-      <figure class="pic pic--sub"><img src="photo-4.svg" alt="（写真を差し替えてください）" loading="lazy"></figure>
+      <figure class="pic pic--main"><img src="photos/slide.jpg" alt="すべり台で遊ぶ子どもたち" width="1200" height="800"></figure>
+      <figure class="pic pic--sub"><img src="photos/nap.jpg" alt="お昼寝の時間" loading="lazy"></figure>
     </div>
   </div>
 </main>
@@ -95,13 +95,18 @@
     <h2 class="h2" id="day-title"><span>もみじの1日と</span><span>年間の行事</span></h2>
     <p class="lede">0・1・2歳の子どもたちが、無理のないリズムで過ごせるようにしています。</p>
     <!-- ▼差し替え：園から「一日の流れ（時刻と内容）」と「月ごとの行事」が届いたら、さくらナースリーと同じ形の表にして入れます -->
-    <div class="prep"><strong>ただいま準備中です。</strong><br>一日の流れや年間の行事は、決まりしだいこのページでご紹介します。くわしくは、見学のときにおたずねください。</div>
-    <div class="polas" style="margin-top:2em"><figure class="pola"><img src="photo-1.svg" alt="（写真を差し替えてください）" loading="lazy"><figcaption>（写真の説明）</figcaption></figure><figure class="pola"><img src="photo-2.svg" alt="（写真を差し替えてください）" loading="lazy"><figcaption>（写真の説明）</figcaption></figure><figure class="pola"><img src="photo-3.svg" alt="（写真を差し替えてください）" loading="lazy"><figcaption>（写真の説明）</figcaption></figure><figure class="pola"><img src="photo-4.svg" alt="（写真を差し替えてください）" loading="lazy"><figcaption>（写真の説明）</figcaption></figure></div>
+    <div class="prep"><strong>一日の流れ・年間行事の表は、ただいま準備中です。</strong><br>畑での収穫や製作あそび、お散歩、ハロウィンなど、季節ごとの体験を大切にしています。くわしくは、見学のときにおたずねください。</div>
+    <div class="polas" style="margin-top:2em"><figure class="pola"><img src="photos/harvest2.jpg" alt="畑の野菜にふれる子どもたち" loading="lazy"><figcaption>野菜の収穫</figcaption></figure><figure class="pola"><img src="photos/craft.jpg" alt="ひまわりの絵を作る製作あそび" loading="lazy"><figcaption>製作あそび</figcaption></figure><figure class="pola"><img src="photos/elder.jpg" alt="おばあちゃんとふれあう子ども" loading="lazy"><figcaption>おじいちゃん・おばあちゃんと</figcaption></figure><figure class="pola"><img src="photos/halloween.jpg" alt="ハロウィンのお菓子をもらう子どもたち" loading="lazy"><figcaption>ハロウィン</figcaption></figure><figure class="pola"><img src="photos/tree.jpg" alt="お散歩で木の枝に手をのばす子ども" loading="lazy"><figcaption>お散歩</figcaption></figure><figure class="pola"><img src="photos/nap.jpg" alt="お昼寝の時間" loading="lazy"><figcaption>お昼寝</figcaption></figure></div>
     <a class="insta" id="btn-insta" href="https://www.instagram.com/momi_jiiiii/" target="_blank" rel="noopener">
       <span class="insta__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="#fff" stroke="none"/></svg></span>
       <span><strong>もみじナースリーのInstagram</strong><small>@momi_jiiiii　日々のようすを発信しています</small></span>
     </a>
   </div>
+</section>
+<!-- ===== 園のようす（写真が流れる帯） ===== -->
+<section class="strip strip--nocap" aria-label="園のようす">
+  <h2 class="strip__ttl">園のようす</h2>
+  <div class="strip__track"><figure class="strip__item"><img src="photos/harvest1.jpg" alt="畑で野菜を収穫する子どもと保育者" loading="lazy"></figure><figure class="strip__item"><img src="photos/craft.jpg" alt="ひまわりの絵を作る製作あそび" loading="lazy"></figure><figure class="strip__item"><img src="photos/balloon.jpg" alt="バルーンの下で遊ぶ子どもたち" loading="lazy"></figure><figure class="strip__item"><img src="photos/cars.jpg" alt="くるまのおもちゃで遊ぶ子どもたち" loading="lazy"></figure><figure class="strip__item"><img src="photos/lunch.jpg" alt="給食を食べる子ども" loading="lazy"></figure><figure class="strip__item"><img src="photos/slide.jpg" alt="すべり台で遊ぶ子どもたち" loading="lazy"></figure><figure class="strip__item"><img src="photos/runin.jpg" alt="保育室をかけっこする子どもたち" loading="lazy"></figure><figure class="strip__item"><img src="photos/tree.jpg" alt="お散歩で木の枝に手をのばす子ども" loading="lazy"></figure><figure class="strip__item"><img src="photos/toys.jpg" alt="おもちゃで遊ぶ子どもたち" loading="lazy"></figure><figure class="strip__item"><img src="photos/walk.jpg" alt="保育者と手をつないでお散歩" loading="lazy"></figure><figure class="strip__item"><img src="photos/runout.jpg" alt="広場をかけっこする子どもたち" loading="lazy"></figure><figure class="strip__item"><img src="photos/halloween.jpg" alt="ハロウィンのお菓子をもらう子どもたち" loading="lazy"></figure><figure class="strip__item"><img src="photos/nap.jpg" alt="お昼寝の時間" loading="lazy"></figure><figure class="strip__item"><img src="photos/elder.jpg" alt="おばあちゃんとふれあう子ども" loading="lazy"></figure><figure class="strip__item"><img src="photos/harvest2.jpg" alt="畑の野菜にふれる子どもたち" loading="lazy"></figure><div class="strip__dup" aria-hidden="true"><figure class="strip__item"><img src="photos/harvest1.jpg" alt="" aria-hidden="true" loading="lazy"></figure><figure class="strip__item"><img src="photos/craft.jpg" alt="" aria-hidden="true" loading="lazy"></figure><figure class="strip__item"><img src="photos/balloon.jpg" alt="" aria-hidden="true" loading="lazy"></figure><figure class="strip__item"><img src="photos/cars.jpg" alt="" aria-hidden="true" loading="lazy"></figure><figure class="strip__item"><img src="photos/lunch.jpg" alt="" aria-hidden="true" loading="lazy"></figure><figure class="strip__item"><img src="photos/slide.jpg" alt="" aria-hidden="true" loading="lazy"></figure><figure class="strip__item"><img src="photos/runin.jpg" alt="" aria-hidden="true" loading="lazy"></figure><figure class="strip__item"><img src="photos/tree.jpg" alt="" aria-hidden="true" loading="lazy"></figure><figure class="strip__item"><img src="photos/toys.jpg" alt="" aria-hidden="true" loading="lazy"></figure><figure class="strip__item"><img src="photos/walk.jpg" alt="" aria-hidden="true" loading="lazy"></figure><figure class="strip__item"><img src="photos/runout.jpg" alt="" aria-hidden="true" loading="lazy"></figure><figure class="strip__item"><img src="photos/halloween.jpg" alt="" aria-hidden="true" loading="lazy"></figure><figure class="strip__item"><img src="photos/nap.jpg" alt="" aria-hidden="true" loading="lazy"></figure><figure class="strip__item"><img src="photos/elder.jpg" alt="" aria-hidden="true" loading="lazy"></figure><figure class="strip__item"><img src="photos/harvest2.jpg" alt="" aria-hidden="true" loading="lazy"></figure></div></div>
 </section>
 <!-- ===== 最後のご相談 ===== -->
 <section class="cta" aria-labelledby="cta-title">
